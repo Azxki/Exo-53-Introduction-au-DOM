@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #c4c4c4;
+}
+
+p {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes paragraphe {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
